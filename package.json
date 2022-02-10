@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -30,16 +30,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "canvas-toile",
+  "name": "toile-canvas",
   "author": "JesusJMM",
-  "module": "dist/canvas-toile.esm.js",
+  "module": "dist/toile-canvas.esm.js",
   "size-limit": [
     {
-      "path": "dist/canvas-toile.cjs.production.min.js",
+      "path": "dist/toile-canvas.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/canvas-toile.esm.js",
+      "path": "dist/toile-canvas.esm.js",
       "limit": "10 KB"
     }
   ],
