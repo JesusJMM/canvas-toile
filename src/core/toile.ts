@@ -42,6 +42,7 @@ class Toile {
     this.fill()
   }
   origin(x: number, y: number){
+    this.ctx.translate(-this.x, -this.y)
     this.ctx.translate(x, y)
     this.x = x
     this.y = y

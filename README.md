@@ -8,7 +8,7 @@ Toile exposes a number of functions that make it easy to draw on the canvas elem
 
 ### Example
 
-** Without toile-canvas **
+####Without toile-canvas
 ```js
 const canvas = document.getElementById('canvas1')
 const ctx = canvas.getContext('2d')
@@ -23,7 +23,7 @@ ctx.closePath()
 ctx.stroke()
 ```
 
-** ✨ With toile-canvas ✨ **
+####✨ With toile-canvas ✨
 ```js
 import Toile from 'toile-canvas'
 
