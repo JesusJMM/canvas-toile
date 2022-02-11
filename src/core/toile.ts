@@ -66,7 +66,7 @@ class Toile {
     this.ctx.rect(x, y, width, height)
     this.draw()
   }
-  circle(x: number, y: number, radius:number, radiusY: number | undefined){
+  circle(x: number, y: number, radius:number, radiusY: number | undefined = undefined){
     this.ctx.beginPath()
     this.ctx.ellipse(x, y, radius, radiusY ?? radius, 0, 0, Math.PI*2)
     this.ctx.closePath()
