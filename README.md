@@ -1,12 +1,11 @@
 # Toile Canvas
 
 Toile canvas is a library for create graphics in canvas 
--------------------
+
 ### Why canvas
 The canvas api is very tortuous and the code grows very quickly.
 Toile exposes a number of functions that make it easy to draw on the canvas element.
 
-------------------------
 ### Example
 
 ** Without toile-canvas **
@@ -35,7 +34,6 @@ draw.Scol = 'blue'
 draw.circle(150, 150, 20)
 ctx.strokeStyle = 'blue'
 ```
-------------------------
 ## Usage
 
 #### Basics
