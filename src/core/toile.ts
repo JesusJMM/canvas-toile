@@ -41,6 +41,14 @@ class Toile {
     this.stroke()
     this.fill()
   }
+  resize(width: number, height: number){
+    this.ctx.canvas.width = width
+    this.ctx.canvas.height = height
+    this.width = this.width
+    this.height = this.height
+    this.x = 0
+    this.y = 0
+  }
   origin(x: number, y: number){
     this.ctx.translate(-this.x, -this.y)
     this.ctx.translate(x, y)
