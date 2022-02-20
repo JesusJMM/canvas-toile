@@ -93,8 +93,8 @@ class Toile {
       for(let i = 0; i < vertices.length; i ++){
         this.ctx.lineTo(vertices[i].x, vertices[i].y)
       }
-      this.stroke()
       this.ctx.closePath()
+      this.stroke()
     }
   }
 }
