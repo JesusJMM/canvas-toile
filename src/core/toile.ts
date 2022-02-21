@@ -91,8 +91,8 @@ class Toile {
     this.ctx.beginPath()
     this.ctx.moveTo(x1, y1)
     this.ctx.lineTo(x2, y2)
-    this.stroke()
     this.ctx.closePath()
+    this.stroke()
   }
   lines(vertices: coordinate2d[]){
     if(vertices.length > 1){
