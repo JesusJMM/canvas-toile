@@ -94,15 +94,21 @@ class Toile {
     this.ctx.closePath()
     this.stroke()
   }
-  lines(vertices: coordinate2d[]){
+  lines(vertices: coordinate2d[], close = false){
     if(vertices.length > 1){
       this.ctx.beginPath()
       this.ctx.moveTo(vertices[0].x, vertices[0].y)
       for(let i = 0; i < vertices.length; i ++){
         this.ctx.lineTo(vertices[i].x, vertices[i].y)
       }
-      this.ctx.closePath()
-      this.stroke()
+      if(close){
+        this.ctx.closePath()
+        this.stroke()
+      }
+      else{
+        this.stroke()
+        this.ctx.closePath()
+      }
     }
   }
 }
